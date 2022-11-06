@@ -1,0 +1,80 @@
+@import url();
+body {
+background-color: #FFF5D7;
+width: 80%;
+margin: auto;
+color: #8EA4F4;
+}
+.container {
+position: relative;
+width: 1440px;
+height: 1024px;
+}
+header {
+    padding: 40px;
+    height: 100px;
+}
+/* Happy Learning */
+
+a {
+position: absolute;
+width: 178px;
+height: 48px;
+left: 135px;
+top: 41px;
+}
+.logo {
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 76.3%;
+letter-spacing: -0.03em;
+}
+.menu {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1288px;
+    top: 42px;
+    text-align: right;
+    background-image: url('../assets/icons/search.png');
+    background-position: top right;
+    }
+    /* Ellipse 197 */
+    .b {
+    position: absolute;
+    box-sizing: border-box;
+    width: 49px;
+    height: 49px;
+    left: 1351px;
+    top: 34px;
+
+
+    background-image: url('../assets/icons/Ellipse\ 197.png');
+    }
+.c {
+    margin-left: 18;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 01px;
+    top: 48px;
+    background-image: url('../assets/icons/3barras.png');
+}
+.body-center .text {
+    width: 456px;
+    margin: 200px auto 50px;
+    
+}
+
+.body-center h1 {
+    font-size: 70px;
+    letter-spacing: 0.11em;
+}
+
+.body-center p {
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    font-weight: 200;
+}
