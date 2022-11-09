@@ -1,7 +1,7 @@
 @import url();
 body {
 background-color: #FFF5D7;
-width: 90%;
+width: 100%;
 margin: auto;
 color: #8EA4F4;
 }
@@ -11,12 +11,24 @@ width: 1440px;
 height: 1024px;
 }
 .flex {
+    display: flex;
     padding: 40px;
     height: 100px;
+    flex-direction: row
 }
+
+.flex-center {
+    justify-content: center;
+}
+
 /* Happy Learning */
 
 .logo {
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 135px;
+    top: 41px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 600;
@@ -25,8 +37,6 @@ height: 1024px;
     letter-spacing: -0.03em;
 }
 .c {
-    
-    position: relative;
     width: 32px;
     height: 32px;
     background-image: url('../assets/icons/3barras.png');
@@ -37,42 +47,34 @@ height: 1024px;
     width: 32px;
     height: 32px;
     left: 1288px;
-    top: 42px;
-    text-align: right;
+    top: 42px;          
     background-image: url('../assets/icons/search.png');
-    background-position: top right;
+
     }
     /* Ellipse 197 */
     .b {
-    position: absolute;
     box-sizing: border-box;
+    position: absolute;
     width: 49px;
     height: 49px;
     left: 1351px;
     top: 34px;
 
-
+    
     background-image: url('../assets/icons/Ellipse\ 197.png');
-    }
+}
+
 .d {
     position: absolute;
     width: 34px;
     height: 34px;
     left: 1358px;
     top: 42px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-image: url('../assets/icons/user.png');
-    }
-.body-center {
-    position: absolute;
-    width: 686px;
-    height: 1114px;
-    left: 377px;
-    top: 183px;    
 }
 
 /* DIGITALCLASSROOM */
-.text-h1 {
+.body-center h1 {
 position: absolute;
 width: 613px;
 height: 189px;
@@ -92,69 +94,91 @@ font-size: 70px;
 letter-spacing: 0.11em;
 }
 
-.text-p {
-position: absolute;
-width: 582px;
-height: 46px;
-left: 432px;
-top: 357px;
+.body-center p {
+    position: absolute;
+    width: 582px;
+    height: 46px;
+    left: 432px;
+    top: 357px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 100;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.06em;
+    color: #000000;
 
-color: #000000;
-
-font-size: 21px;
-letter-spacing: 0.06em;
-font-weight: 200;
+    font-size: 21px;
+    letter-spacing: 0.06em;
+    font-weight: 200;
 }
 
 .btn {
-/* Get Started */
+    /* Get Started */
 width: 129px;
 height: 18px;
-
+ 
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
 line-height: 18px;
-
+ 
 /* identical to box height, or 82% */
 color: #000000;
-
-
+ 
+ 
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
+cursor: pointer;
 }
 
 .btn-white {
-   /* Primary button */
+/* Primary button */
 box-sizing: border-box;
-
+  
 /* Auto layout */
 display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 24px 57px 24px 40px;
 gap: 10px;
-
+  
 position: absolute;
 left: 43.19%;
 right: 42.15%;
 top: 42.97%;
 bottom: 50.59%;
-
+  
 background: #FFFFFF;
 border: 1px solid #000000;
 border-radius: 40px;
- 
+}
+
+.imagen1 {
+    position: absolute;
+width: 686px;
+height: 819px;
+left: 377px;
+top: 478px;
+
+background: #FAC52F;
+background-image: url('../assets/imgs/Image\ top.png');
+}
+
+.imagen2 {
+    /* Group 46 */
+
+
+position: absolute;
+width: 591px;
+height: 502px;
+left: 440px;
+top: 542px;
+background-image: url('../assets/imgs/profes_png.png');
 }
