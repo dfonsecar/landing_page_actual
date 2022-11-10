@@ -73,6 +73,151 @@ height: 1024px;
     background-image: url('../assets/icons/user.png');
 }
 
+.letters1 {
+    position: absolute;
+width: 143px;
+height: 37.76px;
+left: 75px;
+top: 427px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+transform: rotate(-90deg);
+
+}
+
+.letters2 {
+    position: absolute;
+width: 143px;
+height: 37.76px;
+left: 75px;
+top: 825px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+transform: rotate(-90deg);
+}
+
+.flecha1 {
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 210px;
+top: 566px;
+
+transform: rotate(.180deg);
+background-image: url("../assets/icons/flecha1.png");
+}
+
+.flecha2 {
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 1349px;
+top: 524px;
+background-image: url("../assets/icons/flecha2.png");
+}
+
+.estrella {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1103px;
+top: 708px;
+
+background: #F2C94C;
+border-radius: 16px;
+background-image: url("../assets/icons/estrella.png");
+}
+
+.lorem1 {
+    position: absolute;
+width: 165px;
+height: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
+.reloj {
+    position: absolute;
+width: 51px;
+height: 51px;
+left: 1103px;
+top: 780px;
+
+background: #FF2727;
+border-radius: 16px;
+background-image: url("../assets/icons/reloj.png");
+}
+
+.lorem2 {
+    position: absolute;
+width: 165px;
+height: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
+.corazon {
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 1104px;
+top: 854px;
+
+background: #3088FF;
+border-radius: 16px;
+background-image: url("../assets/icons/corazon.png");
+}
+
+.lorem3 {
+    position: absolute;
+width: 165px;
+height: 45px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
 /* DIGITALCLASSROOM */
 .body-center h1 {
 position: absolute;
@@ -168,17 +313,16 @@ left: 377px;
 top: 478px;
 
 background: #FAC52F;
-background-image: url('../assets/imgs/Image\ top.png');
+background-image: url('../assets/imgs/Image_top.png');
 }
 
 .imagen2 {
     /* Group 46 */
-
 
 position: absolute;
 width: 591px;
 height: 502px;
 left: 440px;
 top: 542px;
-background-image: url('../assets/imgs/profes_png.png');
+background-image: url('../assets/imgs/profes.png');
 }
