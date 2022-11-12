@@ -1,14 +1,16 @@
 @import url();
 body {
 background-color: #FFF5D7;
-width: 100%;
-margin: auto;
+width: 90%;
+margin: 0;
+padding: 0%;
 color: #8EA4F4;
 }
 .container {
 position: relative;
 width: 1440px;
 height: 1024px;
+
 }
 .flex {
     display: flex;
@@ -37,8 +39,11 @@ height: 1024px;
     letter-spacing: -0.03em;
 }
 .c {
+    position: relative;
     width: 32px;
     height: 32px;
+    left: 34px;
+    top: 10px;
     background-image: url('/assets/icons/3barras.png');
 }
 
@@ -77,7 +82,6 @@ height: 1024px;
     position: absolute;
 width: 143px;
 height: 37.76px;
-left: 75px;
 top: 427px;
 
 font-family: 'Raleway';
@@ -98,7 +102,6 @@ transform: rotate(-90deg);
     position: absolute;
 width: 143px;
 height: 37.76px;
-left: 75px;
 top: 825px;
 
 font-family: 'Raleway';
@@ -272,7 +275,7 @@ position: absolute;
 z-index: 1;
 width: 129px;
 height: 18px;
- 
+
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
@@ -298,13 +301,13 @@ box-sizing: border-box;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 24px 57px 24px 40px;
+padding: 30px 127px 24px 80px;
 gap: 10px;
   
 position: absolute;
 left: 43.19%;
 right: 42.15%;
-top: 42.97%;
+top: 43.97%;
 bottom: 50.59%;
   
 background: #FFFFFF;
@@ -333,4 +336,5 @@ height: 502px;
 left: 440px;
 top: 542px;
 background-image: url('/assets/imgs/profes.png');
+background-repeat: no-repeat;
 }
