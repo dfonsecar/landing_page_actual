@@ -4,13 +4,12 @@ background-color: #FFF5D7;
 width: 90%;
 margin: 0;
 padding: 0%;
-color: #8EA4F4;
+font-family: Rer;
 }
 .container {
 position: relative;
 width: 1440px;
 height: 1024px;
-
 }
 .flex {
     display: flex;
@@ -37,6 +36,7 @@ height: 1024px;
     font-size: 32px;
     line-height: 76.3%;
     letter-spacing: -0.03em;
+    color: #8EA4F4;
 }
 .c {
     position: relative;
@@ -242,7 +242,6 @@ line-height: 90.5%;
 text-align: center;
 letter-spacing: 0.07em;
 color: #000000;
-border: 2px solid #FFFFFF;
 font-size: 70px;
 letter-spacing: 0.11em;
 }
@@ -269,18 +268,22 @@ letter-spacing: 0.11em;
     font-weight: 200;
 }
 
+.tipografia{
+    font-family: 'Raleway', sans-serif;
+}
+
 .btn {
     /* Get Started */
 position: absolute;
 z-index: 1;
-width: 129px;
+width: 309px;
 height: 18px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 500;
-font-size: 22px;
-line-height: 18px;
+font-size: 27px;
+line-height: 15px;
+
  
 /* identical to box height, or 82% */
 color: #000000;
@@ -296,16 +299,17 @@ cursor: pointer;
 .btn-white {
 /* Primary button */
 box-sizing: border-box;
-  
+height: 70px;
+width: 309px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 30px 127px 24px 80px;
+padding: 30px 27px 24px 80px;
 gap: 10px;
   
 position: absolute;
-left: 43.19%;
+left: 40.19%;
 right: 42.15%;
 top: 43.97%;
 bottom: 50.59%;
