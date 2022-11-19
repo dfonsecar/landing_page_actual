@@ -43,7 +43,7 @@ height: 1024px;
     height: 32px;
     left: 34px;
     top: 10px;
-    background-image: url('../assets/icons/3barras.png');
+    background-image: url(../assets/icons/3barras.png);
 }
 
 .menu {
@@ -52,7 +52,7 @@ height: 1024px;
     height: 32px;
     left: 1288px;
     top: 42px;          
-    background-image: url('../assets/icons/search.png');
+    background-image: url(../assets/icons/search.png);
 
     }
     /* Ellipse 197 */
@@ -65,7 +65,7 @@ height: 1024px;
     top: 34px;
 
     
-    background-image: url('../assets/icons/Ellipse\ 197.png');
+    background-image: url(../assets/icons/Ellipse\ 197.png);
 }
 
 .d {
@@ -74,7 +74,7 @@ height: 1024px;
     height: 34px;
     left: 1358px;
     top: 42px;
-    background-image: url('../assets/icons/user.png');
+    background-image: url(../assets/icons/user.png);
 }
 
 .letters1 {
@@ -124,7 +124,7 @@ left: 210px;
 top: 566px;
 
 transform: rotate(.180deg);
-background-image: url("../assets/icons/flecha1.png");
+background-image: url(../assets/icons/flecha1.png);
 }
 
 .flecha2 {
@@ -133,7 +133,7 @@ width: 42px;
 height: 42px;
 left: 1349px;
 top: 524px;
-background-image: url("../assets/icons/flecha2.png");
+background-image: url(../assets/icons/flecha2.png);
 }
 
 .estrella {
@@ -145,7 +145,7 @@ top: 708px;
 
 background: #F2C94C;
 border-radius: 16px;
-background-image: url("../assets/icons/estrella.png");
+background-image: url(../assets/icons/estrella.png);
 }
 
 .lorem1 {
@@ -174,7 +174,7 @@ top: 780px;
 
 background: #FF2727;
 border-radius: 16px;
-background-image: url("../assets/icons/reloj.png");
+background-image: url(../assets/icons/reloj.png);
 }
 
 .lorem2 {
@@ -204,7 +204,7 @@ top: 854px;
 
 background: #3088FF;
 border-radius: 16px;
-background-image: url("../assets/icons/corazon.png");
+background-image: url(../assets/icons/corazon.png);
 }
 
 .lorem3 {
@@ -327,7 +327,7 @@ top: 478px;
 border-radius: 1700px 1700px 0px 0px;
 
 background: #FAC52F;
-background-image: url('../assets/imgs/Image_top.png');
+background-image: url(../assets/imgs/Image_top.png);
 }
 
 .imagen2 {
@@ -338,6 +338,6 @@ width: 591px;
 height: 502px;
 left: 440px;
 top: 542px;
-background-image: url('../assets/imgs/profes.png');
+background-image: url(../assets/imgs/profes.png);
 background-repeat: no-repeat;
 }
